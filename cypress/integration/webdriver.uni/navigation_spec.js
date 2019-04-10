@@ -16,4 +16,12 @@ describe('Navigation Test Suite', () => {
     cy.get('#login-portal > .thumbnail > .caption > h4').contains('Login Portal')
     cy.get('#login-portal > .thumbnail > .caption > p').contains('Give the challenge a try!')
   })
+
+  it('verify button clicks', () => {
+    cy.get('#button-clicks > .thumbnail > .section-title').contains('BUTTON CLICKS')
+    cy.get('#button-clicks > .thumbnail > .caption > h4').contains(
+      'WebElement Click, JavaScript Click, Actions Move & Click!'
+    )
+    cy.get('#button-clicks > .thumbnail > .caption > p').contains('webdriver clicks?')
+  })
 })

@@ -5,10 +5,11 @@
   "main": "navigation.spec.js",
   "repository": "https://github.com/gituser222/CYPRESSPROJECT1.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress open",
     "prettier-check": "prettier **/*.{css,js,json,pcss,scss,ts} --write",
     "precommit": "npm run prettier-check && git add .",
-    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\"",
+    "push": "git push origin"
   },
   "author": "",
   "license": "ISC",

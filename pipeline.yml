@@ -1,3 +1,5 @@
 steps:
   - label: ':ruby: Build & Test'
     command: './build.sh'
+    agents:
+      queue: 'elastic'

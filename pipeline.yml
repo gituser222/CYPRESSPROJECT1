@@ -1,0 +1,3 @@
+steps:
+  - label: ':ruby: Build & Test'
+    command: './build.sh'
